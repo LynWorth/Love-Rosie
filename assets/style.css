@@ -1,4 +1,4 @@
-@import url(;https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRoboto%253A100%252C200%252C300%252C400%252C500%252C600%252C700%257CExo%253A100%252C200%252C300%252C400%252C500%252C600%252C700%26fbclid%3DIwZXh0bgNhZW0CMTAAAR0PmpAJ11P1_0ywNF54GEokYsjuOR8p2Xn7ETNWgbLb2_yIwSTtAxj7JZ8_aem_KNIuaffE6lola7ewsGxDxg&h=AT2kgJuGqTFSvoAELhKSTRAQu9xn1OS8avSkWUT95_Kfghf-Hk_XaOO6k_V3gQ-K1TrKjET8eO5QHgnb4_mO3FQIapOnLUrF2KrMOqfMrLPY8XmsN3JF885sDpAGOTcqjdg);
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css');
 
 
 /*-----------------------------------------------Colours */
@@ -68,7 +68,44 @@ header {
 .menucontainer {
     font-size: 0;
 }
+
+#nav {
+    margin: 0;
+}
+    
+
 #nav li {
     font-size: 14px;
     padding: 0;
+}
+
+.menuitem {
+    height: 120px;
+    text-align: center;
+    padding: 0;
+}
+
+.menuitem a {
+    width: 100%;
+    text-decoration: none;
+    color: #fff;
+    height: 120px;
+}
+
+.menuitem a i {
+    padding-top: 22px;
+    display: block;
+    color: #fafafa;
+    font-size: 26px;
+}    
+
+.menuitem span {
+    display:block;
+    width: 100%;
+    padding-top: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 2px;
 }
